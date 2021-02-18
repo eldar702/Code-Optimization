@@ -1,4 +1,4 @@
-// 205616634 Eldar Shlomi
+
 #include <stdbool.h>
 /* change it from function to macros because macros is more efficient*/
 
