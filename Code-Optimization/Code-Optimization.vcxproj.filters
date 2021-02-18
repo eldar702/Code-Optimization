@@ -14,4 +14,55 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\readBMP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\writeBMP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\myfunction.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\readBMP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\showBMP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\writeBMP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Filtered_Sharpen.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Filtered_Sharpen_correct.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\gibson_500.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Sharpen.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Sharpen_correct.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Blur.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Blur_correct.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Filtered_Blur.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Filtered_Blur_correct.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
